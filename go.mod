@@ -1,8 +1,13 @@
 module github.com/portfolio/ledger-service
 
-go 1.22
+go 1.23
 
-require github.com/jackc/pgx/v5 v5.5.5
+toolchain go1.24.5
+
+require (
+	github.com/go-chi/chi/v5 v5.3.2
+	github.com/jackc/pgx/v5 v5.5.5
+)
 
 require (
 	github.com/jackc/pgpassfile v1.0.0 // indirect
